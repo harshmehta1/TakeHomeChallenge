@@ -58,6 +58,9 @@ public class DuplicateFinderService {
                     if (isDuplicate){
                         customerSet.add(currCustomer);
                         customerSet.add(secondCustomer);
+                        duplicate.add(currCustomer);
+                        duplicate.add(secondCustomer);
+
                     }
                 }
 
