@@ -1,5 +1,7 @@
 package com.validity.TakeHomeChallenge.model;
-
+/**
+    This class stores each record in csv to pojo
+ **/
 public class Customer implements Comparable<Customer>{
 
     private String id;
@@ -17,7 +19,7 @@ public class Customer implements Comparable<Customer>{
     public Customer(){
 
     }
-    
+
     public String getId() {
         return id;
     }
