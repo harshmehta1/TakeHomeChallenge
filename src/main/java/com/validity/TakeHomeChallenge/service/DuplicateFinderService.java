@@ -80,7 +80,6 @@ public class DuplicateFinderService {
         //remove all duplicate records from original list of records and return
         List<Customer> uniqueList = new ArrayList<>(customerList);
         uniqueList.removeAll(duplicate);
-        System.out.println(uniqueList);
         return uniqueList;
     }
 
